@@ -1,0 +1,11 @@
+
+*.xml
+token/token.pickle
+.idea/misc.xml
+module/__pycache__
+.idea/misc.xml
+.idea/misc.xml
+*.pyc
+
+/logger.log
+/venv/

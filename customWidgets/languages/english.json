@@ -1,0 +1,527 @@
+{
+  "elements": ["mainWindow", "mailCover", "mailList", "mailView", "mailItem", "mailItemAvatarIcon",
+    "iconClickButton", "mailItemSelectButton", "mailItemCheckButton", "searchButton", "searchInput", "settingPanel", "settingButton",
+    "navigationButton", "newMessageContainer", "newMessageTextEdit", "newMessageButton", "textButton",
+    "actionBar"
+  ],
+  "values": {
+    "mainWindow": {
+      "states": ["default"],
+      "default": [{
+        "name": "background-color",
+        "value": "rgb(24, 29, 35)"
+      }]
+    },
+    "mailCover": {
+      "states": ["default"],
+      "default": [{
+        "name": "background-color",
+        "value": "qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0.4 rgba(24, 29, 35, 255), stop:1 rgba(255, 255, 255, 0))"
+      }]
+    },
+    "mailList": {
+      "states": ["default"],
+      "default": []
+    },
+    "mailView": {
+      "states": ["default"],
+      "default": [{
+          "name": "background-color",
+          "value": "rgb(59, 67, 80)"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ]
+    },
+    "mailContentView": {
+      "states": ["default"],
+      "default": [{
+          "name": "border-color",
+          "value": "rgb(58, 110, 255)"
+        },
+        {
+          "name": "border",
+          "value": "10px solid black"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+
+      ]
+    },
+    "mailViewAvatarIcon": {
+      "states": ["default"],
+      "default": [{
+          "name": "background-color",
+          "value": "rgba(255, 255, 255, 0)"
+        },
+        {
+          "name": "border",
+          "value": "0px solid rgb(199, 199, 199)"
+        },
+        {
+          "name": "border-radius",
+          "value": "25px"
+        }
+      ]
+    },
+    "label": {
+      "states": ["default"],
+      "default": [{
+          "name": "background-color",
+          "value": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "name": "color",
+          "value": "rgb(255, 255, 255)"
+        }
+      ]
+    },
+
+    "mailItem": {
+      "states": ["default", "default_deep", "pressed", "hover"],
+      "default": [{
+          "name": "background-color",
+          "value": " qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(45, 50, 66, 255),stop:1 rgba(34, 38, 49, 255))"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ],
+      "default_deep": [{
+          "name": "background-color",
+          "value": "qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(34, 39, 51, 255),stop:1 rgba(31, 34, 45, 255))"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ],
+      "pressed": [{
+          "name": "background-color",
+          "value": "qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(45, 50, 66, 255),stop:1 rgba(59, 67, 80, 255))"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ],
+      "hover": [{
+          "name": "background-color",
+          "value": "qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgba(54, 45, 66,255), stop:1 rgba(24, 33, 60, 255))"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ]
+    },
+    "mailItemAvatarIcon": {
+      "states": ["default"],
+      "default": [{
+          "name": "background-color",
+          "value": "rgba(255, 255, 255, 0)"
+        },
+        {
+          "name": "border",
+          "value": "0px solid rgb(199, 199, 199)"
+        },
+        {
+          "name": "border-radius",
+          "value": "20px"
+        }
+      ]
+    },
+    "mailItemLabel": {
+      "states": ["default", "default_deep", "pressed", "hover"],
+      "default": [{
+          "name": "background-color",
+          "value": "rgba(255, 255, 255, 0)"
+        },
+        {
+          "name": "color",
+          "value": "#FFFFFF"
+        }
+      ],
+      "default_deep": [{
+          "name": "background-color",
+          "value": "rgba(255, 255, 255, 0)"
+        },
+        {
+          "name": "color",
+          "value": "#8A8A8A"
+        }
+      ],
+      "pressed": [],
+      "hover": []
+    },
+    "mailItemSelectButton": {
+      "states": ["default", "pressed", "hover"],
+      "default": [{
+          "name": "background-color",
+          "value": "rgba(255, 255, 255, 0)"
+        },
+        {
+          "name": "border",
+          "value": "2px solid rgb(199, 199, 199)"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ],
+      "pressed": [{
+          "name": "background-color",
+          "value": "rgb(48, 229, 132)"
+        },
+        {
+          "name": "border",
+          "value": "2px solid rgb(48, 229, 132)"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ],
+      "hover": [{
+          "name": "background-color",
+          "value": "rgba(255, 255, 255, 0)"
+        },
+        {
+          "name": "border",
+          "value": "2px solid rgb(48, 229, 132)"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ]
+    },
+    "mailItemCheckButton": {
+      "states": ["default", "pressed", "hover"],
+      "default": [{
+        "name": "background-color",
+        "value": "rgba(255, 255, 255, 0)"
+      }],
+      "pressed": [{
+        "name": "background-color",
+        "value": "rgba(255, 255, 255, 0)"
+      }],
+      "hover": [{
+        "name": "background-color",
+        "value": "rgba(255, 255, 255, 0)"
+      }]
+    },
+    "iconClickButton": {
+      "states": ["default", "pressed", "hover"],
+      "default": [{
+        "name": "background-color",
+        "value": "rgba(255, 255, 255, 0)"
+      }],
+      "pressed": [{
+        "name": "background-color",
+        "value": "rgba(255, 255, 255, 0)"
+      }],
+      "hover": [{
+        "name": "background-color",
+        "value": "rgba(255, 255, 255, 0)"
+      }]
+    },
+    "searchBar": {
+      "states": ["default", "pressed", "hover"],
+      "default": [{
+          "name": "background-color",
+          "value": "rgba(59, 67, 80, 255)"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ],
+      "pressed": [{
+          "name": "background-color",
+          "value": "rgba(59, 67, 80, 255)"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        },
+        {
+          "name": "border",
+          "value": "1px solid rgba(20, 107, 226, 1)"
+        }
+      ],
+      "hover": [{
+          "name": "background-color",
+          "value": "rgba(59, 67, 80, 255)"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ]
+    },
+    "searchButton": {
+      "states": ["default", "pressed", "hover"],
+      "default": [],
+      "pressed": [],
+      "hover": []
+    },
+    "searchInput": {
+      "states": ["default", "pressed", "hover"],
+      "default": [{
+          "name": "color",
+          "value": "#FFFFFF"
+        },
+        {
+          "name": "border",
+          "value": "0px solid rgba(255, 255, 255, 255)"
+        }
+      ],
+      "pressed": [{
+        "name": "color",
+        "value": "#B8B8B8"
+      }],
+      "hover": []
+    },
+    "settingPanel": {
+      "states": ["default", "pressed", "hover"],
+      "default": [{
+          "name": "background-color",
+          "value": "qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #953bba ,stop:1 #146be2)"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ],
+      "pressed": [],
+      "hover": []
+    },
+    "settingButton": {
+      "states": ["default", "pressed", "hover"],
+      "default": [{
+          "name": "background-color",
+          "value": "rgba(20, 107, 226, 255)"
+        },
+        {
+          "name": "color",
+          "value": "#FFFFFF"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        },
+        {
+          "name": "text-align",
+          "value": "left"
+        },
+        {
+          "name": "padding",
+          "value": "10px"
+        }
+      ],
+      "pressed": [],
+      "hover": []
+    },
+    "navigationButton": {
+      "states": ["default", "pressed", "hover"],
+      "default": [{
+          "name": "background-color",
+          "value": "rgba(255, 255, 255, 0)"
+        },
+        {
+          "name": "color",
+          "value": "rgba(255, 255, 255, 255)"
+        },
+        {
+          "name": "text-align",
+          "value": "left"
+        }
+      ],
+      "pressed": [{
+          "name": "background-color",
+          "value": "rgba(255, 255, 255, 0)"
+        },
+        {
+          "name": "color",
+          "value": "rgba(20, 107, 226, 255)"
+        }
+      ],
+      "hover": [{
+          "name": "background-color",
+          "value": "rgba(255, 255, 255, 0)"
+        },
+        {
+          "name": "color",
+          "value": "rgba(20, 107, 226, 255)"
+        }
+      ]
+    },
+    "newMessageContainer": {
+      "states": ["default"],
+      "default": [{
+          "name": "background-color",
+          "value": "#262A30"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ]
+    },
+    "newMessageTextEdit": {
+      "states": ["default"],
+      "default": [{
+          "name": "background-color",
+          "value": "#929497"
+
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ]
+    },
+    "newMessageButton": {
+      "states": ["default", "pressed", "hover"],
+      "default": [],
+      "pressed": [],
+      "hover": []
+    },
+    "textButton": {
+      "states": ["default", "pressed", "hover"],
+      "default": [{
+          "name": "background-color",
+          "value": "#146BE2"
+        },
+        {
+          "name": "color",
+          "value": "#FFFFFF"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ],
+      "pressed": [{
+          "name": "background-color",
+          "value": "#146BE2"
+        },
+        {
+          "name": "color",
+          "value": "#FFFFFF"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ],
+      "hover": [{
+          "name": "background-color",
+          "value": "#146BE2"
+        },
+        {
+          "name": "color",
+          "value": "#FFFFFF"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ]
+    },
+    "actionBar": {
+      "states": ["default", "pressed", "hover"],
+      "default": [{
+          "name": "background-color",
+          "value": "rgba(196, 196, 196, 0.08)"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ],
+      "pressed": [],
+      "hover": []
+    },
+    "actionButton": {
+      "states": ["default", "pressed", "hover"],
+      "default": [],
+      "pressed": [],
+      "hover": []
+    },
+    "settingsComboBox": {
+      "states": ["default"],
+      "default": [{
+          "name": "background-color",
+          "value": "#262A30"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        },
+        {
+          "name": "color",
+          "value": "#FFFFFF"
+        }
+
+      ]
+    },
+    "createButton": {
+      "states": ["default", "pressed", "hover"],
+      "default": [{
+          "name": "background-color",
+          "value": "#2D3242"
+        },
+        {
+          "name": "color",
+          "value": "#FFFFFF"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        },
+        {
+          "name": "color",
+          "value": "#FFFFFF"
+        }
+      ],
+      "pressed": [{
+          "name": "background-color",
+          "value": "#2D3242"
+        },
+        {
+          "name": "color",
+          "value": "#FFFFFF"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        }
+      ],
+      "hover": [{
+          "name": "background-color",
+          "value": "#2D3242"
+        },
+        {
+          "name": "color",
+          "value": "#FFFFFF"
+        },
+        {
+          "name": "border-radius",
+          "value": "10px"
+        },
+        {
+          "name": "color",
+          "value": "#FFFFFF"
+        }
+      ]
+    }
+
+  }
+}
